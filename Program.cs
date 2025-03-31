@@ -1,7 +1,7 @@
 ﻿double consumo, horasUsoDia;
 decimal custo, custoMes;
 
-Console.Write("- - - Custo de Energia - - -\n");
+Console.WriteLine("- - - Custo de Energia - - -\n");
 
 Console.Write("Consumo do aparelho (em kWh/mes)...: ");
 consumo = double.Parse(Console.ReadLine()!);
